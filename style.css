@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#header{
+    padding: 25px 120px 65px 120px;
+    background-color: #1f2937; 
+}
+.part1 {
+    display: flex;
+    justify-content: space-between;
+}
+.part1 > .logo {
+    color: #f9fafa;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.part1 .menu ul{
+    display: flex;
+    gap: 25px;
+}
+.part1 .menu ul a {
+    color: #f9fafa;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.part2 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+.part2 .text {
+    line-height: 1.6;
+}
+.part2 .text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.part2 .text p {
+    color: #f9faf8;
+    font-weight: 500;
+}
+.part2 .text button {
+    background-color: #3882f6;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.part2 .back {
+    background-color: gray;
+    padding: 100px 120px 100px 120px;
+    color: white;
+    font-weight: 700;
+}
+.second {
+    position: relative;
+    padding: 25px 180px 65px 180px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.second h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.cards {
+    margin-top: 20px;
+    display: flex;
+}
+.card .item {
+    width: 100px;
+    padding: 85px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+.card p {
+    margin-top: 15px;
+}
+.thrid {
+    position: relative;
+    background-color: #e5e7eb;
+    padding: 100px 180px 80px 180px;
+    /* margin-top: 30px;
+    margin-bottom: 70px; */
+    line-height: 1.6;
+}
+.thrid p {
+    font-size: 25px;
+}
+.thrid .left-aside {
+    position: absolute;
+    font-size: 26px;
+    right: 20%;
+}
+.fourth {
+    padding: 80px 120px 80px 120px;
+}
+.fourth .qoute {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 50px 80px 50px 80px;
+    border-radius: 5px;
+}
+.fourth .qoute .one {
+    color: white;
+    font-size: 20px;
+}
+.fourth .qoute .two button {
+    background-color: #3882f6;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
